@@ -5,7 +5,7 @@
 	}
 
 body {
-	background-color: #000000;
+	background-color: #000;
 	}
 
 p,
@@ -15,11 +15,11 @@ h5,
 h6,
 li {
 	text-align: justify;
-	color: #ffffff;
+	color: #fff;
 	}
 
 h1 {
-	border-color: #770000;
+	border-color: #700;
 	border-width: 5px;
 	padding: 10px;
 	color:red;
@@ -32,6 +32,8 @@ h2 {
 	color:#990000;
 	font-size: 32px;
 	margin: auto;
+	margin-bottom: 20px;
+	margin-top: 10px;
 	width: 100%;
 	}
 
@@ -51,7 +53,7 @@ ol, ul {
 	}
 
 ol	{
-	background-color: #111111;
+	background-color: #111;
 	}
 
 .orderedlist {
@@ -59,13 +61,14 @@ ol	{
 	margin-bottom: 10px;
 	margin-top: 10px;
 	max-width: 750px;
+	background-color: #222;
 	}
 
 .ordered {
-	padding: 5px;
-	background-color: #222222
+	padding: 10px;
+	background-color: #222
 	font-size: 22px;
-	margin-bottom: 35px;
+	margin-bottom: 15px;
 	margin-top: 15px;
 	}
 
@@ -75,10 +78,18 @@ ol	{
 	margin-top: 15px;
 	}
 
-.unordered2 {
+ul .unordered2 {
+	background-color:#111;
+	}
+
+li .unordered2 {
+	margin-right: 30px;
 	margin-top: 10px;
 	margin-bottom: 10px;
 	font-size: 21px;
+	background-color: #111;
+	padding-top: 2px;
+	padding-bottom: 2px;
 	}
 
 .unordered3 {
@@ -103,9 +114,9 @@ ol	{
 a:link {
 	margin: auto;
 	width: 10%;
-	color: #bbbb00
+	color: #bb0
 	}
 
 a:visited {
-	color: #bb0000
+	color: #b00
 	}

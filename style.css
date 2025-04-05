@@ -1,4 +1,6 @@
 * {
+	text-align: center;
+	margin: auto;
 	font-family: "Times New Roman", serif;
 	}
 
@@ -12,26 +14,40 @@ h4,
 h5,
 h6,
 li {
+	text-align: justify;
 	color: #ffffff;
 	}
 
 h1 {
+	border-color: #770000;
+	border-width: 5px;
+	padding: 10px;
 	color:red;
 	font-size: 44px;
+	margin: auto;
+	width: 100%;
 	}
 
 h2 {
 	color:#990000;
 	font-size: 32px;
+	margin: auto;
+	width: 100%;
 	}
 
 p {
 	font-size: 20px;
+	margin: 5px;
 	}
 
 img {
+	margin: 10px;
 	height: auto;
 	width: 250px;
+	}
+
+ol, ul {
+	margin-bottom: 30px;
 	}
 
 .orderedlist {
@@ -39,6 +55,8 @@ img {
 	margin-bottom: 10px;
 	margin-top: 10px;
 	max-width: 750px;
+	background-color: #111111;
+	padding: 10px;
 	}
 
 .ordered {
@@ -79,6 +97,8 @@ img {
 	}
 
 a:link {
+	margin: auto;
+	width: 10%;
 	color: #bbbb00
 	}
 
